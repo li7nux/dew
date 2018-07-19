@@ -149,7 +149,8 @@ public class DewConfig {
     public static class DewSecurityCORS {
 
         private String allowOrigin = "*";
-        private String allowMethods = "POST,GET,OPTIONS,PUT,DELETE,HEAD";
+        // private String allowMethods = "POST,GET,OPTIONS,PUT,DELETE,HEAD";
+        private String allowMethods = "POST,GET,OPTIONS";
         private String allowHeaders = "x-requested-with,content-type";
 
         public String getAllowOrigin() {
